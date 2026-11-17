@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "peta-saku",
+  "title": "Peta Saku",
+  "tag": "NAVIGASI ASIMETRIS · 3 KOTA",
+  "description": "Satu menyetir, satu memegang peta. Percayakan arah, rayakan jalan memutar.",
+  "duration": "4–6 menit / perjalanan",
+  "icon": "⌖",
+  "color": "#e6a45e",
+  "layout": "drive",
+  "instructions": "Di awal, kedua pemain memilih peran dari HP masing-masing: satu HP memegang peta, satu HP menyetir. Ketukan pertama mengunci kedua stick. Pengemudi memakai analog untuk kemudi, Gas dan Rem untuk laju, klakson untuk bersenang-senang. Navigator memegang satu-satunya peta: geser dan cubit peta, lalu tekan Pin untuk menaruh arah. Pengemudi hanya melihat ikon arah, bukan peta. Salah belok tidak mengakhiri perjalanan; cari jalan memutar bersama. Mode santai tanpa timer; mode tantangan menambahkan target waktu dan bahan bakar.",
+  "players": 2,
+  "order": 35,
+  "menu": {
+    "title": "Peta\nSaku",
+    "line": "Satu menyetir. Satu memegang arah.",
+    "genre": "Navigasi asimetris",
+    "showLevel": true
+  },
+  "input": {
+    "axes": [
+      "x",
+      "y",
+      "throttle",
+      "brake"
+    ],
+    "actions": [
+      "role",
+      "pin",
+      "clear-pin",
+      "horn",
+      "recover"
+    ]
+  },
+  "developer": {
+    "keyboard": false,
+    "maxLevel": 3
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16T09:55:41.700Z",
+  "result": "PASS",
+  "checks": [
+    "pilihan peran muncul di kedua HP setelah hitungan dan muat di portrait/landscape",
+    "mobil dan timer tetap diam sampai peran dikunci",
+    "ketukan di HP B mengunci B sebagai pengemudi dan A sebagai navigator; peta hanya di A",
+    "Gas dari slot pengemudi hasil pilihan menggerakkan mobil 6.3 m",
+    "navigator slot 0 dapat memasang pin; payload publik tetap tanpa koordinat pin"
+  ],
+  "externalRequests": [],
+  "errors": [],
+  "viewport": {
+    "display": "1440x1050",
+    "controllers": [
+      "412x915 portrait",
+      "915x412 landscape"
+    ]
+  },
+  "limitation": "Automated Chromium/SwiftShader check. Physical two-phone playtest, GPU performance, latency, and full-route human play remain unverified."
+}

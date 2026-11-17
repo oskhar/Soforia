@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "scope": "game:peta-saku",
+  "summary": "Implementasi game navigasi asimetris Peta Saku dengan pemilihan peran stick peta/setir",
+  "validation": [
+    "npm test -- --scope game:peta-saku: 11/11 lulus (privasi payload, tiga kota selesai via autopilot, pemilihan dan tukar peran, input slot pengemudi, salah belok, pin, derek, bahan bakar, jaringan jalan, spawn kamera, clamp pin).",
+    "npm test: 76/76 lulus untuk seluruh suite, termasuk platform server dan scope Git.",
+    "npm run check: lulus (registry 6 modul, batas arsitektur, tsc --noEmit).",
+    "npm run build: lulus.",
+    "npm run check:docs: lulus, 35 dokumen, 6 scope game dan 8 adapter AI.",
+    "npm run check:scope -- --working: lulus, scope game:peta-saku, 26 file, ownerReviewRequired false.",
+    "Browser Playwright + Chromium/SwiftShader: PASS pada dua controller, 3D tanpa error, peta hanya di HP navigator, pin muncul di HUD pengemudi, mobil bergerak, portrait/landscape muat, tanpa request eksternal atau error JS.",
+    "Browser Playwright pemilihan peran: PASS, overlay peran muat di portrait/landscape, mobil/timer diam sebelum peran dikunci, HP B memilih menyetir lalu menjadi pengemudi slot 1, peta hanya muncul di HP A sebagai navigator slot 0, gas dari slot 1 menggerakkan mobil 6,3 m, pin dari slot 0 diterima.",
+    "Bukti: src/games/peta-saku/evidence/peta-role-browser-report.json, peta-browser-report.json dan lima tangkapan layar. Playtest dua HP fisik, RTT input-to-photon dan performa GPU nyata belum diukur."
+  ]
+}

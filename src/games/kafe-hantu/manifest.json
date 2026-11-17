@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "kafe-hantu",
+  "title": "Kafe Hantu",
+  "tag": "BARISTA & PEMBACA JEJAK · 3 RUANG",
+  "description": "Dua barista, enam tamu tak terlihat, dan satu shift sampai fajar. Baca jejak, tuang minuman, layani meja yang bertanda.",
+  "duration": "5–7 menit / shift",
+  "icon": "☕",
+  "color": "#dfb878",
+  "layout": "serve",
+  "instructions": "HP A adalah barista: pilih rasa, suhu, dan bentuk cangkir, tekan Tuang, lalu Sajikan ke meja yang ditandai. HP B adalah pembaca jejak: ketuk meja pada denah untuk membaca petunjuk rasa, suhu, dan bentuk cangkir; tekan Dengarkan untuk membuka petunjuk yang kabur, lalu Tandai meja. Salah sajian membuat tamu menghilang lembut dan kembali dengan pesanan yang sama. Tidak ada jumpscare dan tidak ada tamu yang hilang permanen. Mode santai tanpa timer; tantangan menambah dua tamu dan menyembunyikan sebagian petunjuk.",
+  "players": 2,
+  "order": 35,
+  "menu": {
+    "title": "Kafe\nHantu",
+    "line": "Dua barista. Tamu yang tak terlihat.",
+    "genre": "Misteri hangat",
+    "showLevel": true
+  },
+  "input": {
+    "axes": [
+      "x",
+      "y"
+    ],
+    "actions": [
+      "mark",
+      "listen",
+      "select",
+      "brew",
+      "serve"
+    ]
+  },
+  "developer": {
+    "keyboard": false,
+    "maxLevel": 3
+  }
+}

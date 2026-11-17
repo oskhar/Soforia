@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16T01:31:58.301Z",
+  "result": "PASS",
+  "checks": [
+    "catalog search opens Peta Saku and two controllers reach playing phase",
+    "3D canvas renders (1440x1050, WebKit WebGL)",
+    "full map exists only on navigator phone; driver and TV payloads stay map-free",
+    "navigator places a pin; laptop shows only the directional pin HUD",
+    "driver Gas plus steering moved the car 13.3 m",
+    "navigator and driver fit landscape viewport without scrolling",
+    "no external requests or JavaScript errors"
+  ],
+  "externalRequests": [],
+  "errors": [],
+  "viewport": {
+    "display": "1440x1050",
+    "phone": [
+      "412x915",
+      "915x412"
+    ]
+  },
+  "limitation": "Automated Chromium with SwiftShader. Physical two-phone playtest, real GPU performance and input-to-photon latency remain unverified. Gameplay was not driven to the destination; route completion is covered by unit autopilot tests."
+}
